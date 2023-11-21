@@ -1,4 +1,4 @@
-package Weapon.strategies.ReloadStrategy;
+package Strategy.Weapon.strategies.ReloadStrategy;
 
 public interface IReloadStrategy {
     void reload();

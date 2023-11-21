@@ -1,10 +1,14 @@
-package Weapon;
+package Strategy.Weapon;
 
-import Weapon.strategies.FireStrategy.IFireStrategy;
-import Weapon.strategies.ReloadStrategy.IReloadStrategy;
+import Strategy.Weapon.strategies.FireStrategy.IFireStrategy;
+import Strategy.Weapon.strategies.ReloadStrategy.IReloadStrategy;
 
 public class Weapon {
     private String name;
+    private String ammo;
+    private Number ReloadTime;
+    private Number ShellCount;
+
     private IFireStrategy fireStrategy;
     private IReloadStrategy reloadStrategy;
 

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "AR-15",
+    "ammo": "5.56mm",
+    "reload_time": 3.0,
+    "bullet_count": 30
+  },
+  {
+    "name": "AK-47",
+    "ammo": "7.62mm",
+    "reload_time": 3.5,
+    "bullet_count": 30
+  },
+  {
+    "name": "M16A4",
+    "ammo": "5.56mm",
+    "reload_time": 2.8,
+    "bullet_count": 20
+  },
+  {
+    "name": "SCAR-L",
+    "ammo": "5.56mm",
+    "reload_time": 3.2,
+    "bullet_count": 25
+  }
+]

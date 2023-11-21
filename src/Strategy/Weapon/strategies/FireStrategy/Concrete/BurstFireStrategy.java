@@ -1,6 +1,6 @@
-package Weapon.strategies.FireStrategy.Concrete;
+package Strategy.Weapon.strategies.FireStrategy.Concrete;
 
-import Weapon.strategies.FireStrategy.IFireStrategy;
+import Strategy.Weapon.strategies.FireStrategy.IFireStrategy;
 
 public class BurstFireStrategy implements IFireStrategy {
     @Override

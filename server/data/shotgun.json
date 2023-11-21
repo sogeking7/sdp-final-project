@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Remington 870",
+    "ammo": "12 Gauge",
+    "reload_time": 4.0,
+    "shell_count": 5
+  },
+  {
+    "name": "Mossberg 500",
+    "ammo": "20 Gauge",
+    "reload_time": 3.5,
+    "shell_count": 6
+  },
+  {
+    "name": "Benelli M4",
+    "ammo": "12 Gauge",
+    "reload_time": 3.8,
+    "shell_count": 7
+  },
+  {
+    "name": "Winchester SXP",
+    "ammo": "12 Gauge",
+    "reload_time": 4.2,
+    "shell_count": 6
+  }
+]

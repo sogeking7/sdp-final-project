@@ -1,6 +1,6 @@
-package Weapon.strategies.ReloadStrategy.Concrete;
+package Strategy.Weapon.strategies.ReloadStrategy.Concrete;
 
-import Weapon.strategies.ReloadStrategy.IReloadStrategy;
+import Strategy.Weapon.strategies.ReloadStrategy.IReloadStrategy;
 
 public class StandardReloadStrategy implements IReloadStrategy {
     @Override

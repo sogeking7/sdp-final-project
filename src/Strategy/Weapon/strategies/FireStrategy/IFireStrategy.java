@@ -1,4 +1,4 @@
-package Weapon.strategies.FireStrategy;
+package Strategy.Weapon.strategies.FireStrategy;
 
 public interface IFireStrategy {
     void fire();

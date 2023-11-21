@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Glock 17",
+    "ammo": "9mm",
+    "reload_time": 2.5,
+    "bullet_count": 17
+  },
+  {
+    "name": "Colt M1911",
+    "ammo": ".45 ACP",
+    "reload_time": 3.0,
+    "bullet_count": 7
+  },
+  {
+    "name": "SIG Sauer P226",
+    "ammo": "9mm",
+    "reload_time": 2.8,
+    "bullet_count": 15
+  },
+  {
+    "name": "Beretta 92",
+    "ammo": "9mm",
+    "reload_time": 3.2,
+    "bullet_count": 15
+  }
+]

@@ -1,5 +1,9 @@
 import Decorator.ScopeDecorator;
 import Decorator.SilencerDecorator;
+import Factory.player.CTPlayer;
+import Factory.player.Player;
+import Factory.player.TPlayer;
+import Observer.GameEventSubject;
 import Singleton.HttpClientSingleton;
 import Strategy.Weapon.Weapon;
 import Strategy.Weapon.strategies.FireStrategy.Concrete.SingleFireStrategy;
@@ -21,5 +25,14 @@ public class Main {
         Weapon silencedScopedWeapon = new SilencerDecorator(scopedWeapon);
         silencedScopedWeapon.Fire();
 
+        Player player = new CTPlayer("Player", 100);
+        Player enemy = new TPlayer("Enemy", 100);
+
+        GameEventSubject gameEventSubject = new GameEventSubject();
+
+        gameEventSubject.addObserver(player);
+        gameEventSubject.addObserver(enemy);
+
+        gameEventSubject.notifyObservers();
     }
 }

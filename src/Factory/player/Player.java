@@ -1,5 +1,8 @@
 package Factory.player;
-public abstract class Player {
+
+import Observer.Observer;
+
+public abstract class Player implements Observer {
     private String name;
     private int health;
 
@@ -18,6 +21,7 @@ public abstract class Player {
         this.health += healPoints;
         System.out.println(name + " healed for " + healPoints + " points. Remaining health: " + health);
     }
+
     public void displayInfo() {
         System.out.println("Player: " + name + ", Health: " + health);
     }

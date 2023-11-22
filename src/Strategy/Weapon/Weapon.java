@@ -33,4 +33,28 @@ public class Weapon {
     public void setReloadStrategy(IReloadStrategy reloadStrategy) {
         this.reloadStrategy = reloadStrategy;
     }
+
+    public Number getReloadTime() {
+        return ReloadTime;
+    }
+
+    public Number getShellCount() {
+        return ShellCount;
+    }
+
+    public String getAmmo() {
+        return ammo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public IFireStrategy getFireStrategy() {
+        return fireStrategy;
+    }
+
+    public IReloadStrategy getReloadStrategy() {
+        return reloadStrategy;
+    }
 }
